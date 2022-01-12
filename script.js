@@ -1,7 +1,7 @@
 
 
 var startDate = new Date(2022, 0, 04)
-var now = new Date().toLocaleString("en-US", {timeZone: "America/New_York"});
+var now = new Date()
 var dDay = new Date(2022, 4, 05);
 
 var absDateDiff = Math.ceil((dDay.getTime()-startDate.getTime())/(1000*3600*24));
