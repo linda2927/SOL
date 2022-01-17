@@ -1,0 +1,70 @@
+@font-face {
+  font-family: 'KyoboHand';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/KyoboHand.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ACCchildrenheartOTF-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2112-2@1.0/ACCchildrenheartOTF-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html, body {
+  width: 100%;
+}
+
+body {
+  background-color: #E2F2FF !important;
+}
+
+h1 {
+  text-align: center;
+  display: inline;
+  font-size: 40px !important;
+  line-height: 65px !important;
+  font-family: 'KyoboHand'
+}
+h5 {
+  margin-bottom: 0 !important;
+}
+.header {
+  text-align: center;
+  margin-bottom:20px;
+  height: 65px;
+  margin-top: 10px;
+}
+.Dday {
+  float: right;
+  text-align: right;
+  background-color: #9AC6EA;
+  border-radius: 10px;
+  padding: 10px;
+}
+#d-day {
+  margin-bottom: 0;
+  font-size: 30px;
+  font-family: 'KyoboHand'
+}
+
+.progress {
+  width: 100%;
+  font-family: 'ACCchildrenheartOTF-Regular';
+  height: 20px !important;
+}
+
+.progress-bar {
+  font-size: 20px;
+}
+
+.plane {
+  width: 30px;
+  position: relative;
+  left: 10%;
+}
+
+#plane {
+  display: inline;
+}

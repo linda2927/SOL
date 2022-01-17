@@ -13,5 +13,7 @@ console.log(varDateDiff)
 var progressBar = (((absDateDiff - varDateDiff) / absDateDiff) * 100).toFixed(2)
 console.log(progressBar)
 
+
 document.getElementById("progressBar").innerHTML = progressBar + '%'
-document.getElementById("progressBar").style = `width: ${progressBar}`
+document.getElementById("progressBar").style.width = `${progressBar}%`
+document.getElementById("d-day").innerHTML = `D-${varDateDiff}일`
