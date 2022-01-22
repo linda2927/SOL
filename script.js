@@ -17,3 +17,5 @@ console.log(progressBar)
 document.getElementById("progressBar").innerHTML = progressBar + '%'
 document.getElementById("progressBar").style.width = `${progressBar}%`
 document.getElementById("d-day").innerHTML = `D-${varDateDiff}일`
+document.getElementById("planeImg").style.left = `${progressBar}%`
+
